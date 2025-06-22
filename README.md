@@ -32,15 +32,18 @@ This project provisions a full AWS infrastructure using Terraform, including:
 
 ### 📷 Architecture Diagram
 
-> ![AWS Infra Diagram](insert-your-architecture-image-url-here)
 ![arcture](https://github.com/user-attachments/assets/5a4d10c2-7beb-470c-9f61-e1e2ee397566)
 
 ---
 
+### AWS Configure
+
+Add your aws secret and access key terraform.tfvars file.
+
 ### 🚀 How to Deploy
 
 ```bash
-git clone https://github.com/your-username/aws-terraform-project.git
-cd aws-terraform-project
+git clone https://github.com/Ankitmaurya819/devops-resume-project
+cd devops-resume-project
 terraform init
 terraform apply
